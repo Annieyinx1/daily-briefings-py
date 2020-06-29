@@ -14,7 +14,7 @@ def about():
     #return "About Me (TODO)"
     return render_template("about.html")
 
-@home_routes.route("/users/new")
+@home_routes.route("/register")
 def register():
     print("VISITED THE REGISTRATION PAGE")
     return "Sign Up for our Product! (TODO)" # we'll make an HTML template for this later!
